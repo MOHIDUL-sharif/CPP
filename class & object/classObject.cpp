@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-class student{
+class student
+{
 public:
     string name;
     int std_id;
@@ -17,7 +18,6 @@ int main()
     s.name="Mohidul";
     s.std_id=1902016;
     s.age=23;
-
     s.printInformation();
     return 0;
 }
